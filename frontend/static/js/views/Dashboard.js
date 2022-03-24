@@ -1,5 +1,6 @@
 import AbstractView from "./AbstractView.js";
 import loadHTML from "../utils/loadHTML.js";
+//import ButtonCounter from "../utils/components/buttonCounter/buttonCounter.js";
 
 export default class extends AbstractView {
     constructor(params) {
