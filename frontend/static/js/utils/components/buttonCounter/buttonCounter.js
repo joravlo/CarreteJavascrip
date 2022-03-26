@@ -9,9 +9,9 @@ class ButtonCounter extends HTMLElement {
     getTemplate() {
       return `
         <div>
-        <i class="fa-solid fa-chevron-up"></i>
-        <p>0</p>
-        <i class="fa-solid fa-chevron-down"></i>
+        <ion-icon name="caret-up-outline"></ion-icon>
+        <span>0</span>
+        <ion-icon name="caret-down-outline"></ion-icon>
         </div>      
       `;
     }

@@ -1,11 +1,35 @@
-<h1>Welcome sasdada back, Dom</h1>
-<p><i class="fa-solid fa-arrow-down"></i> icon-camera-retro</p>
-
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button-counter></button-counter>
-            <p>
-                Fugiat voluptate et nisi Lorem cillum anim sit do eiusmod occaecat irure do. Reprehenderit anim fugiat sint exercitation consequat. Sit anim laborum sit amet Lorem adipisicing ullamco duis. Anim in do magna ea pariatur et.
-            </p>
-            <p>
-                <a href="/posts" data-link>View recent posts</a>.
-            </p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="visor">
+                <span class="visorTitle">SONDA</span>
+                <span class="visorNum">0</span>
+        </div> 
+      </div>
+      <div class="col-sm">
+            <div class="counterButton" id="buttonCable">
+                <span class="buttonTitle">CABLE</span>
+                <ion-icon name="caret-up-outline" action="clickUp" spanId="counterCable"></ion-icon>
+               <div><span id="counterCable">0</span><span class="uMedida">m</span></div>
+                <ion-icon name="caret-down-outline" action="clickDown" spanId="counterCable"></ion-icon>
+        </div> 
+        </div>
+        <div class="col-sm">
+            <div class="counterButton" id="buttonFondo">
+                <span class="buttonTitle">FONDO</span>
+                <ion-icon name="caret-up-outline" action="clickUp" spanId="counterFondo"></ion-icon>
+                <div><span id="counterFondo">0</span><span class="uMedida">m</span></div>
+                <ion-icon name="caret-down-outline" action="clickDown" spanId="counterFondo"></ion-icon>
+        </div> 
+        </div>
+        <div class="col-sm">
+            <div class="counterButton" id="buttonVel">
+                <span class="buttonTitle">VELOCIDAD</span>
+                <ion-icon name="caret-up-outline" action="clickUp" spanId="counterVel"></ion-icon>
+                <div><span id="counterVel">0</span><span class="uMedida">%</span></div>
+                <ion-icon name="caret-down-outline" action="clickDown" spanId="counterVel"></ion-icon>
+        </div> 
+      </div>
+    </div>
+  </div>
+      
