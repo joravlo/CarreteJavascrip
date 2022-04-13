@@ -133,3 +133,14 @@ a {
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .switchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+  }
+
+  .switchContainer > label {
+      margin-left: 8px;
+  }
